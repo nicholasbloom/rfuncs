@@ -7,7 +7,7 @@ Some functions for R.
 
 `rmdfuncs.R` contains three functions that help with the typesetting of LaTeX files.
 
-- `startex` captures the latex output from [stargazer](http://cran.r-project.org/web/packages/stargazer/index.html), and deletes the table header and footer it puts on automatically. This allows you to set your own latex table header and footer like so:
+- `startex` captures the latex output from [stargazer](http://cran.r-project.org/web/packages/stargazer/index.html), and deletes the table header and footer it puts on automatically. You pass all the usual arguments to stargazer, and you can even use it with the `al` function below. This allows you to set your own latex table header and footer like so:
 
 ```
 lm1 <- lm(y ~ x1 + x2 + x3, data=mydata)

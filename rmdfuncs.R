@@ -1,5 +1,3 @@
-#source('/Users/nbloom/Documents/workzone/scripts/R/stargazer-internal.R')
-#source('/Users/nbloom/Documents/workzone/scripts/R/stargazer.R')
 
 startex <- function(...){
   plister = as.list(substitute(list(...)))[-1L]
